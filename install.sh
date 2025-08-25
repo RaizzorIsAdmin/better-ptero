@@ -32,12 +32,6 @@ if ! [ -x "$(command -v curl)" ]; then
   exit 1
 fi
 
-# Always remove lib.sh, before downloading it
-rm -rf /tmp/lib.sh
-curl -sSL -o /tmp/lib.sh "$GITHUB_BASE_URL"/"$GITHUB_SOURCE"/lib/lib.sh
-# shellcheck source=lib/lib.sh
-source /tmp/lib.sh
-
 execute() {
   echo -e "\n\n* better-ptero $(date) \n\n" >>$LOG_PATH
 
