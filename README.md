@@ -4,26 +4,23 @@
 
 Неофициальный скрипт для Pterodactyl Panel & Wings. Работает с последней версией
 
-Прочитайте больше о [Pterodactyl](https://pterodactyl.io/) здесь. ВНИМАНИЕ! ЭТОТ СКРИПТ НЕ СВЯЗАН С ОФИЦИАЛЬНЫМ ПРОЕКТОМ PTERODACTYL!
+Прочитайте больше о [Pterodactyl Panel](https://pterodactyl.io/) здесь. ВНИМАНИЕ! ЭТОТ СКРИПТ НЕ СВЯЗАН С ОФИЦИАЛЬНЫМ ПРОЕКТОМ PTERODACTYL.
 
 ## Возможности скрипта:
 
 - Автоматическая установка панели (расширения, база данных, cronjob, nginx).
 - Автоматическая установка Pterodactyl Wings (Docker, systemd).
-- Panel: (optional) automatic configuration of Let's Encrypt.
-- Panel: (optional) automatic configuration of firewall.
-- Uninstallation support for both panel and wings.
+- Возможность установки SSL сертификата от Let's Encrypt.
+- Возможность конфигурации Firewall портов.
+- Возможность удаления Wings/Panel.
 
 ## Помощь
 
-For help and support regarding the script itself and **not the official Pterodactyl project**, you can join the [Discord Chat](https://pterodactyl-installer.se/discord).
+Нужна помощь? Отпишите мне в Discord - @raizzor_official
 
 ## Поддержка скрипта на разных ОС:
 
-List of supported installation setups for panel and Wings (installations supported by this installation script).
-
-### Supported panel and wings operating systems
-
+Список поддерживаемых ОС.
 | ОС               | Версия  | Поддержано         | Версия PHP  |
 | ---------------- | ------- | ------------------ | ----------- |
 | Ubuntu           | 14.04   | :red_circle:       |             |
@@ -49,6 +46,7 @@ List of supported installation setups for panel and Wings (installations support
 ```bash
 bash <(curl -s https://installer.prodbyraizzxr.lol)   [ ВРЕМЕННО НЕ РАБОТАЕТ ]
 ```
+**Статус:** :red_circle: Недоступно
 **ВНИМАНИЕ:** Для полноценной работы скрипта, нужно быть авторизованным как `root`, иначе ничего не получится.
 
 ## Создатели
@@ -56,6 +54,6 @@ bash <(curl -s https://installer.prodbyraizzxr.lol)   [ ВРЕМЕННО НЕ Р
 Копирайт (C) 2024 - 2025, MAGMACLOUD LTD, CRYPTONODES, https://t.me/enarmadeluxe
 Создано [djraizzxr](https://t.me/APECTOBAHA_3A_DDOS).
 
-Хостинг игровых серверов Minecraft: **<https://cryptonodes.fun>**
-Хостинг Интернет сайтов (Web сайтов): **<https://magmacloud.host>**
+<br>Хостинг игровых серверов Minecraft: **<https://cryptonodes.fun>**</br>
+<br>Хостинг Интернет сайтов (Web сайтов): **<https://magmacloud.host>**</br>
 
